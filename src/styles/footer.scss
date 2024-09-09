@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 60px 30px 60px 66px;
+  background-color: #000000;
+
+  img {
+    width: 122px;
+    object-fit: contain;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+      max-width: 133px;
+      line-height: 17.11px;
+    }
+  }
+}

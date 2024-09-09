@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+  margin-bottom: 50px;
+
+  &__logo {
+    width: 210px;
+    object-fit: contain;
+
+    @media (max-width: 768px) {
+      width: 145px;
+    }
+  }
+
+  &__nav {
+    &__list {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+
+      &__item {
+        a {
+          font-size: 24px;
+          font-weight: 500;
+
+          @media (max-width: 768px) {
+            font-size: 12px;
+          }
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+    margin-bottom: 27px;
+  }
+}
