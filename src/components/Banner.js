@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/banner.scss";
 
-export default function Banner({ imageSrc, title }) {
+export default function Banner({ imageSrc, title = null }) {
   return (
     <section className="container">
       <article className="banner">

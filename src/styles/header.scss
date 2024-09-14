@@ -33,6 +33,12 @@
             text-decoration: underline;
           }
         }
+
+        &--active {
+          a {
+            text-decoration: underline;
+          }
+        }
       }
     }
   }
